@@ -3,6 +3,10 @@
     --primary: 	#2b2b2c;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -30,7 +34,7 @@ header {
     border: 2px solid var(--primary);
     border-radius: 4px;
 
-    padding: 5px 20px;
+    padding: 30px 30px;
     margin-top: 25px;
     margin-bottom: 50px;
 
@@ -41,12 +45,15 @@ header h1 {
     font-size: 40px;
     display: flex;
 }
-/* 
-header h1 span {
-    background-image: url('../assets/logo.jpg');
-    min-width: 40px;
-    min-height: 40px;
-} */
+
+header img {
+    width: 100px;
+    height: auto;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+
+    opacity: 100%;
+}
 
 header .tabs a {
     font-size: 26px;
@@ -66,7 +73,7 @@ header .tabs a:hover {
     border-radius: 4px;
 
     width: 800px;
-    padding: 5px 20px 20px;
+    padding-bottom: 30px;
 
     display: flex;
     flex-direction: column;
@@ -74,17 +81,57 @@ header .tabs a:hover {
     align-items: center;
 }
 
-#contentTab1 img {
-    width: 80px;
-    height: auto;
-    border: 2px solid var(--primary);
-    border-radius: 50%;
+.tabContent .menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    opacity: 100%;
+    width: 50%;
+
+    margin-top: 50px;
 }
 
-#contentTab1 video {
-    border: 2px solid var(--primary);
-    border-radius: 4px;
-    padding: 10px;
+.tabContent .menu-item .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Unica One', cursive;
+    font-size: 24px;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    height: 1em;
+    width: 100%;
+}
+
+.item-header#katsu { background-color: #f6faad; }
+.item-header#karaage { background-color: #fad7c3; }
+.item-header#kare { background-color: #b9e9f7; }
+
+.tabContent .menu-item .item-header .item-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabContent .menu-item .item-header .item-price h4 {
+    font-size: 32px;
+    color: var(--background-color);
+    background-color: var(--primary);
+    border-radius: 50%;
+
+    padding: 5px 8px;
+    margin-left: 5px;
+}
+
+.tabContent .menu-item .item-description {
+    width: 100%;
+    text-align: left;
+    line-height: 1.5em;
+
+    font-family: 'Comfortaa', cursive;
 }
