@@ -172,6 +172,20 @@ header .tabs a.active {
     width: 100%;
 }
 
+.tabContent .menu-item .item-header h2 span {
+    font-family: 'Material Icons';
+    font-size: 30px;
+
+    margin-right: 10px;
+}
+
+.tabContent .menu-item .item-header h2 {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
 .item-header#katsu { background-color: #f6faad; }
 .item-header#karaage { background-color: #fad7c3; }
 .item-header#kare { background-color: #b9e9f7; }
@@ -195,6 +209,17 @@ header .tabs a.active {
 
     padding: 5px 5px;
     margin-left: 5px;
+}
+
+.tabContent .menu-item img {
+    width: 550px;
+
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.tabContent .menu-item img.hide {
+    display: none;
 }
 
 .tabContent .menu-item .item-description {
