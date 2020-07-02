@@ -244,3 +244,47 @@ header .tabs a.active {
     background-color: #2b2b2c2f;
     height: 1em;
 }
+
+#contentTab2 .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 400px;
+
+    margin-top: 50px;
+}
+
+#contentTab2 .text-container h1 {
+    font-family: 'Unica One', cursive;
+    font-weight: 300;
+    font-size: 24px;
+
+    text-align: center;
+    line-height: 1.3em;
+}
+
+#contentTab2 .text-container h1 strong {
+    background-color: #fad7c3;
+}
+
+#contentTab2 .text-container.contact-info h1 {
+    font-size: 32px;
+}
+
+#contentTab2 .text-container.contact-info em {
+    font-weight: 700;
+    background-color: #b9e9f7;
+}
+
+#contentTab2 .text-container.contact-info a {
+    color: var(--primary);
+    font-weight: 700;
+    text-shadow: 2px 2px #fad7c3;
+}
+
+#contentTab2 img {
+    width: 300px;
+
+    margin: 60px 0 30px;
+}

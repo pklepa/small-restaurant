@@ -13,6 +13,7 @@
 
 import { renderHome } from './home'
 import { renderMenu } from './menu'
+import { renderContact } from './contact'
 
 
 function renderHeader() {
@@ -74,6 +75,8 @@ function handleTab(e) {
             document.querySelector('#tab2').classList.add('active');
             document.querySelector('#tab0').classList.remove('active');
             document.querySelector('#tab1').classList.remove('active');
+
+            renderContact();
             break;
         default:
             console.warn('Something went wrong.');
