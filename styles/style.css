@@ -91,9 +91,8 @@ header .tabs a.active {
     align-items: center;
 }
 
-.tabContent#contentTab0 img {
+.tabContent#contentTab0 .welcome img {
     width: 500px;
-    border-radius: 50px;
 }
 
 #contentTab0 .welcome {
@@ -102,20 +101,18 @@ header .tabs a.active {
     align-items: center;
     width: 100%;
 
-    margin-top: 20px;
+    padding: 20px 50px 0;
+
 }
 
 #contentTab0 .welcome h1 {
-    font-family: 'Ramabhadra', sans-serif;
     font-family: 'Unica One', cursive;
-    font-size: 32px;
+    font-size: 40px;
 
     text-shadow: 2px 2px #b9e9f7;
 
-    width: 150px;
+    max-width: 200px;
     line-height: 1.7em;
-
-    margin-right: 80px;
 }
 
 #contentTab0 .intro {
