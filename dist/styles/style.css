@@ -4,7 +4,7 @@
 }
 
 ::selection{
-    background-color: #167e9e6e;
+    background-color: #167e9e3e;
 }
 
 * {
@@ -71,7 +71,8 @@ header .tabs a {
     margin-left: 10px;
 }
 
-header .tabs a:hover {
+header .tabs a:hover,
+header .tabs a.active {
     border-bottom: 2px solid var(--primary);
     transition: 200ms;
 }
