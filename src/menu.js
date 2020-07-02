@@ -29,7 +29,7 @@ function renderMenu() {
                     <h4>16</h4>
                 </div>
             </div>
-            <img class="menu-img img-karaage hide" src="./assets/katsusando.jpg" alt="">
+            <img class="menu-img img-karaage hide" src="./assets/karaage-sando.png" alt="">
             <div class="item-description">
                 <p>Handmade hokkaido bread, tonkatsu sauce,
                     <strong>chicken upperleg (130g) deep fried w/ panko bread crumbs,</strong>

@@ -42,7 +42,7 @@ function renderHome() {
 
     const tabHTML = `
         <div class="welcome">
-            <img src="./assets/transparent.png" alt="">
+            <img src="./assets/katsu_prato.png" alt="">
             <h1>traditional japanese pork cutlet sandwich</h1>
         </div>
 
