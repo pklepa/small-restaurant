@@ -3,8 +3,16 @@
     --primary: 	#2b2b2c;
 }
 
+::selection{
+    background-color: #167e9e6e;
+}
+
 * {
     box-sizing: border-box;
+}
+
+h1,h2,h3,h4,strong {
+    font-weight: 700;
 }
 
 body {
@@ -37,6 +45,7 @@ header {
     margin-bottom: 50px;
 
     font-family: 'Unica One', cursive;
+    text-shadow: 2px 2px #b9e9f7;
 }
 
 header h1 {
@@ -57,6 +66,7 @@ header .tabs a {
     font-size: 26px;
     color: var(--primary);
     text-decoration: none;
+    text-shadow: 1px 1px #b9e9f7;
 
     margin-left: 10px;
 }
@@ -72,11 +82,67 @@ header .tabs a:hover {
 
     width: 800px;
     padding-bottom: 30px;
+    margin-bottom: 30px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.tabContent#contentTab0 img {
+    width: 500px;
+    border-radius: 50px;
+}
+
+#contentTab0 .welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+#contentTab0 .welcome h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Unica One', cursive;
+    font-size: 32px;
+
+    text-shadow: 2px 2px #b9e9f7;
+
+    width: 150px;
+    line-height: 1.7em;
+
+    margin-right: 80px;
+}
+
+#contentTab0 .intro {
+    margin: 0px 50px;
+    text-align: center;
+}
+
+#contentTab0 .intro h1 {
+    font-family: 'Unica One', cursive;
+    font-size: 24px;
+
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+#contentTab0 .intro p {
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.3em;
+}
+
+#contentTab0 .intro p strong {
+    background-color: #f6faad;
+}
+
+#contentTab0 .intro p a {
+    background-color: #b9e9f7;
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .tabContent .menu-item {
