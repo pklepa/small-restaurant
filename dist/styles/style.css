@@ -150,9 +150,9 @@ header .tabs a.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 
-    width: 50%;
+    width: 70%;
 
     margin-top: 50px;
 }
@@ -163,7 +163,7 @@ header .tabs a.active {
     align-items: center;
 
     font-family: 'Unica One', cursive;
-    font-size: 24px;
+    font-size: 32px;
     
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -183,33 +183,38 @@ header .tabs a.active {
     justify-content: center;
 }
 
+.tabContent .menu-item .item-header .item-price h3 {
+    font-size: 24px;
+}
+
 .tabContent .menu-item .item-header .item-price h4 {
     font-size: 32px;
     color: var(--background-color);
     background-color: var(--primary);
     border-radius: 50%;
 
-    padding: 5px 8px;
+    padding: 5px 5px;
     margin-left: 5px;
 }
 
 .tabContent .menu-item .item-description {
-    width: 100%;
-    text-align: left;
+    width: 450px;
+    text-align: justify;
     line-height: 1.5em;
+
+    margin-top: 15px;
 
     font-family: 'Comfortaa', cursive;
 }
 
 .tabContent .menu-extra {
     display: flex;
-    width: 50%;
+    width: 70%;
     align-items: center;
     justify-content: space-between;
 
-    font-family: 'Comfortaa', cursive;
     font-family: 'Unica One', cursive;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 700;
 
     margin-top: 50px;

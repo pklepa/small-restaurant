@@ -15,9 +15,9 @@ function renderMenu() {
                 </div>
             </div>
             <div class="item-description">
-                <p>Pao hokkaido artesanal, molho tonkatsu,<br>
-                    <strong>barriga de porco empanada (130g),</strong><br>
-                    maionese tipo kewpie e pepino em conserva.</p>
+                <p>Handmade hokkaido bread, tonkatsu sauce,
+                    <strong>pork cutlet (130g) deep fried w/ panko bread crumbs,</strong>
+                    kewpie mayonnaise and pickled cucumber.</p>
             </div>
         </div>
         <div class="menu-item">
@@ -29,9 +29,9 @@ function renderMenu() {
                 </div>
             </div>
             <div class="item-description">
-                <p>Pao hokkaido artesanal, molho tonkatsu,<br>
-                    <strong>sobrecoxa de frango empanada (130g),</strong><br>
-                    maionese tipo kewpie e alface organica.</p>
+                <p>Handmade hokkaido bread, tonkatsu sauce,
+                    <strong>chicken upperleg (130g) deep fried w/ panko bread crumbs,</strong>
+                    kewpie mayonnaise and organic lettuce.</p>
             </div>
         </div>
         <div class="menu-item">
@@ -43,9 +43,9 @@ function renderMenu() {
                 </div>
             </div>
             <div class="item-description">
-                <p>Pao hokkaido frito recheado com<br>
-                    curry japones, legumes e cogumelos.<br>
-                    <strong>(4 un. - porcao de aproximadamente 200g)</strong>
+                <p>Deep fried Hokkaido bread stuffed with
+                    japanese curry, vegetables and mushrooms.
+                    <strong>(4 pieces - approximately 200g)</strong>
                 </p>
             </div>
         </div>
