@@ -3,6 +3,9 @@
 
 > See it live on [https://pklepa.github.io/small-restaurant/](https://pklepa.github.io/small-restaurant/)
 
+# screen-shots
+![image](https://user-images.githubusercontent.com/22618438/101835236-60e62b00-3b33-11eb-9fc7-325fabb16e52.png)
+
 # objectives
 The main objective of this project is to familiarize and apply the following:
 - Introduction to the use of modern web-development techniques such as:
